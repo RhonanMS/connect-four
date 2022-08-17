@@ -9,6 +9,10 @@ public class BitboardMoveDecider implements MoveDecider {
     public int getNextMove(Board board, TokenType player) {
         BitboardSolver solver = new BitboardSolver();
         Position initialPosition = new Position();
+        // if AI has to make the first move - just take the middle :-)
+        if (board.getMoves().isEmpty()) {
+            return (Board.MAX_COLS / 2) + 1;
+        }
         initialPosition.play(board.getMoves());
         int maxScore = Integer.MIN_VALUE;
         int score = Integer.MIN_VALUE;

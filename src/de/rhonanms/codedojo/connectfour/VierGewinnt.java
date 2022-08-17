@@ -15,8 +15,8 @@ public class VierGewinnt {
 
     public VierGewinnt() {
         this.board = new Board();
-        this.player1 = new RandomMoveDecider(); // BitboardAIBot(); // PlayerInputBot();
-        this.player2 = new BitboardMoveDecider(); // RandomAIBot();
+        this.player1 = new  BitboardMoveDecider();// RandomMoveDecider(); // // PlayerInputBot();
+        this.player2 = new BitboardMoveDecider(); // RandomMoveDecider();
     }
 
     public void gameLoop() {
