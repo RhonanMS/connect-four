@@ -1,8 +1,8 @@
-package de.bbht.codedojo.bjoeil.bitboardai;
+package de.rhonanms.codedojo.connectfour.bitboardai;
 
-import de.bbht.codedojo.bjoeil.MoveDecider;
-import de.bbht.codedojo.bjoeil.Board;
-import de.bbht.codedojo.bjoeil.TokenType;
+import de.rhonanms.codedojo.connectfour.MoveDecider;
+import de.rhonanms.codedojo.connectfour.Board;
+import de.rhonanms.codedojo.connectfour.TokenType;
 
 public class BitboardMoveDecider implements MoveDecider {
     @Override

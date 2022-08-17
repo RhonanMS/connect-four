@@ -1,7 +1,7 @@
-package de.bbht.codedojo.bjoeil;
+package de.rhonanms.codedojo.connectfour;
 
-import de.bbht.codedojo.bjoeil.bitboardai.BitboardMoveDecider;
-import de.bbht.codedojo.bjoeil.randomai.RandomMoveDecider;
+import de.rhonanms.codedojo.connectfour.bitboardai.BitboardMoveDecider;
+import de.rhonanms.codedojo.connectfour.randomai.RandomMoveDecider;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

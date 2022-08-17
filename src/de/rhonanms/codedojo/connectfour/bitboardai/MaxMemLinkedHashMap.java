@@ -1,4 +1,4 @@
-package de.bbht.codedojo.bjoeil.bitboardai;
+package de.rhonanms.codedojo.connectfour.bitboardai;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

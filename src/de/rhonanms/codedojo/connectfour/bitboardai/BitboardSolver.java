@@ -1,9 +1,7 @@
-package de.bbht.codedojo.bjoeil.bitboardai;
+package de.rhonanms.codedojo.connectfour.bitboardai;
 
-import de.bbht.codedojo.bjoeil.Board;
+import de.rhonanms.codedojo.connectfour.Board;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class BitboardSolver {

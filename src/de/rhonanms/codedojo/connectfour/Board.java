@@ -1,4 +1,4 @@
-package de.bbht.codedojo.bjoeil;
+package de.rhonanms.codedojo.connectfour;
 
 import java.util.ArrayList;
 import java.util.List;

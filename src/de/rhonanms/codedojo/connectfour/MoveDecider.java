@@ -1,4 +1,4 @@
-package de.bbht.codedojo.bjoeil;
+package de.rhonanms.codedojo.connectfour;
 
 public interface MoveDecider {
 
